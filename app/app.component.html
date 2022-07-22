@@ -1,0 +1,27 @@
+
+<div id="my">
+  <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+    <source src="assets/bgvideo.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="container-fluid" id="p">
+  <div class="row" id="s">
+    <img src="assets/logo.png">
+  </div>
+  <div class="row" id="d">
+     <app-navbar></app-navbar>
+  </div>
+  <div class="row" id="f">
+    <div class="col-sm-1" id="g">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-sm-11" id="h">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+  <div class="row" id="j">
+    <app-footer></app-footer>
+  </div>
+</div>

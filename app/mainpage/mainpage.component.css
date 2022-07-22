@@ -1,0 +1,11 @@
+img {
+    width: 30%;
+    height: auto;
+  }
+  .row{text-align: center;}
+  .container{font-size: large;}
+  #e{text-align: end; 
+font-size: large;}
+  ul {
+    list-style-type: none;
+}

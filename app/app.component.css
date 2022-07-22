@@ -1,0 +1,29 @@
+#my{
+    position: fixed;
+    right: 0;
+    
+    min-width: 70%;
+    min-height: 70%;
+  }
+  img{border-radius: 100px;}
+#p{position: absolute;
+    top: 0;
+    background: rgba(21, 21, 21, 0.595);
+    color: #f1f1f1;
+    width: 100%;
+    
+  }
+  #s{padding-left: 17cm;}
+    
+    
+#s{width: 65%;
+    height: 65%;
+}
+#g{
+    border-right: 1px solid grey;
+    padding-left: 1cm;
+    
+}
+#f{border-bottom: 1px solid grey;}
+#j{ background-color: darkslategrey;
+  text-align: center;}

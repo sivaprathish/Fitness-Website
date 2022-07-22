@@ -1,0 +1,31 @@
+<div class="container ">
+    
+        <h2>BMI CALCULATOR</h2>
+        <hr>
+        <h4><b>Body mass index (BMI) is a measure of body fat based on height and weight that applies
+             to adult men and women.  use the tool below to compute yours.</b></h4>
+             <hr>
+             <div class="container" id="a">
+                <h3>weight</h3>
+                <input   type="number"  [(ngModel)]="weight" name="weight"  class="form-control" placeholder="weight in Kg" >
+                <br>
+                <br>
+                <br>
+                <h3>Height</h3>
+                <input type="number" [(ngModel)]="height" name="height"class="form-control" placeholder="Height in Cm">
+                <br>
+                <br> 
+                  
+                    <button class="btn btn-success" (click)="enter()" >ENTER</button>
+                <br>
+                
+                
+             </div>
+             <br><br>
+      <b><h3>Your Body Mass Index is {{result}}</h3></b> 
+       
+    <img src="assets/bmi1.png">   
+    <br>
+    <br>
+</div>
+

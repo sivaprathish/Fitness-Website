@@ -1,0 +1,35 @@
+<div class="container ">
+    
+    <h2>BMR CALCULATOR</h2>
+    <hr>
+    <h5><b>The Basal Metabolic Rate (BMR) is 
+        the number of calories you burn as your body
+         performs basic (basal) life-sustaining function.</b></h5>
+    <hr>
+         <div class="container" id="a" >
+            <h3>weight</h3>
+            <input   type="number"  [(ngModel)]="weight" name="weight"  class="form-control" placeholder="weight in Kg" >
+            <br>
+            <br>
+            <br>
+            <h3>Height</h3>
+            <input type="number" [(ngModel)]="height" name="height"class="form-control" placeholder="Height in Cm">
+            <br>
+            <br> 
+            <h3>Age</h3>
+            <input type="number" [(ngModel)]="age" name="age" class="form-control" placeholder="Age">
+            <br>
+            <br>
+                <button class="btn btn-success" (click)="enter()" >ENTER</button>
+            <br>
+            
+            
+         </div>
+         <br><br>
+  <b><h3>Your Basal Metabolic Rate is <u>{{result}}</u> calories per day</h3></b> 
+   
+<br>
+<br>
+</div>
+
+
