@@ -1,6 +1,6 @@
 # Fitness-Website
 ---
-###This ==Fitness website== used to help the people to   do their workout , exercise and other fitness activity through  online . In the website we give workout video material , instruction, Bmi calculator, Bmr calculator, calorie calculator, todolist etc
+#This ==Fitness website== used to help the people to   do their workout , exercise and other fitness activity through  online . In the website we give workout video material , instruction, Bmi calculator, Bmr calculator, calorie calculator, todolist etc
 ---
 -The workout material
 -The yoga material
